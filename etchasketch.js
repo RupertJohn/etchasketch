@@ -1,7 +1,7 @@
 function initialiseEtchASketch(noBlocks) {
   var blockWidth = $("#container").data('width')/noBlocks;
-  var $div = $("<div>", {"class": 'pixel'})
   for(var i = 0, total = noBlocks*noBlocks; i < total; i++) {
+    var $div = $("<div>", {"class": 'pixel'})
     $("#container").append($div);
   }
   $('.pixel').css({'width': blockWidth, 'height': blockWidth})

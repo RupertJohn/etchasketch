@@ -14,7 +14,25 @@ h1 {
 
 .pixel {
   /*border: solid black 1px; //////TESTING ONLY, WILL OBSCURE PIXEL SIZE*/
+  background-color: black;
   display:inline-block;
   float:left;
   opacity: 0;
+}
+
+.button {
+  margin: auto;
+  margin-top: 20px;
+  width: 7%;
+  padding: 0;
+  text-align: center;
+  background-color: #f1f1f1;
+  border: solid black 2px;
+  border-radius: 2px;
+}
+
+p {
+  margin: none;
+  padding: none;
+  border: none;
 }
